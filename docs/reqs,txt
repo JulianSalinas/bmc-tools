@@ -1,0 +1,37 @@
+Generador de fragmentos:
+
+    porcentaje de cobertura
+
+    opcion para cubrir totalmente la hilera base
+
+    generar archivo descriptivo:
+        - se debe permitir reejecucion
+
+    modo batch:
+        - a partir de archivo descriptivo o parametros
+
+Ensamblador:
+
+    lista fragmentos:
+        - mayores o menores a un valor dado
+        - buscar palabras claves
+
+    algoritmo de ensamblaje de grafo de translapes
+
+        - obtener superhilera minima comun
+
+        - generar grafo
+
+        - pedir grafo simplificado
+            - valor de translape minimo
+            - indicar si el grafo generado es conexo
+
+        - generar grafo conexo minimo:
+            - a partir del grafo original
+            - seleccionar los mayores traslapes hasta que el grafo se conexo
+
+        - informar si se produjeron islas en caso que el grafo fuera no conexo
+        - hacer una comparacion de similitud entre la hilera original y la ensamblada:
+            se puede solicitar la hilera original
+
+

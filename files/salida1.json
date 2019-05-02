@@ -1,0 +1,18 @@
+{
+    "archivo": "../files/entrada.txt",
+    "cantidad_fragmentos": 50,
+    "promedio_tamanho": 6,
+    "desviacion_estandar": 2,
+    "rango_traslape": [
+        1,
+        8
+    ],
+    "probabilidades": {
+        "sustituciones": 0,
+        "inserciones": 0,
+        "deleciones": 0,
+        "inversiones": 0,
+        "quimeras": 0
+    },
+    "errores": []
+}
